@@ -1,0 +1,334 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ali Hassan",
+      "email": "ali@smarthub.com",
+      "role": "admin",
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Ali",
+      "createdAt": "2024-01-15"
+    },
+    {
+      "id": "2",
+      "name": "Sara Khan",
+      "email": "sara@smarthub.com",
+      "role": "manager",
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sara",
+      "createdAt": "2024-02-20"
+    },
+    {
+      "id": "3",
+      "name": "Bilal Ahmed",
+      "email": "bilal@smarthub.com",
+      "role": "user",
+      "status": "inactive",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Bilal",
+      "createdAt": "2024-03-10"
+    },
+    {
+      "id": "4",
+      "name": "Fatima Malik",
+      "email": "fatima@smarthub.com",
+      "role": "user",
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Fatima",
+      "createdAt": "2024-04-05"
+    },
+    {
+      "id": "i1xO_fjOQfs",
+      "name": "Sheikh Ateeb",
+      "email": "smateeb208@gmail.com",
+      "role": "user",
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sheikh Ateeb",
+      "createdAt": "2026-05-19"
+    },
+    {
+      "id": "gv1X-F9tZ9s",
+      "name": "Sheikh Mohammad Ateeb",
+      "email": "engineer92@gmail.com",
+      "role": "user",
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sheikh Mohammad Ateeb",
+      "createdAt": "2026-05-19"
+    },
+    {
+      "id": "TarlEIydFNo",
+      "name": "Raju",
+      "email": "raju207@gmail.com",
+      "role": "user",
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Raju",
+      "createdAt": "2026-05-20"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 129.99,
+      "stock": 45,
+      "status": "active",
+      "image": "https://placehold.co/100x100?text=Headphones",
+      "createdAt": "2024-01-10"
+    },
+    {
+      "id": "2",
+      "name": "Office Chair",
+      "category": "Furniture",
+      "price": 299.99,
+      "stock": 12,
+      "status": "active",
+      "image": "https://placehold.co/100x100?text=Chair",
+      "createdAt": "2024-02-14"
+    },
+    {
+      "id": "3",
+      "name": "Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 89.99,
+      "stock": 0,
+      "status": "inactive",
+      "image": "https://placehold.co/100x100?text=Keyboard",
+      "createdAt": "2024-03-22"
+    },
+    {
+      "id": "4",
+      "name": "Standing Desk",
+      "category": "Furniture",
+      "price": 499.99,
+      "stock": 8,
+      "status": "active",
+      "image": "https://placehold.co/100x100?text=Desk",
+      "createdAt": "2024-04-01"
+    },
+    {
+      "id": "uD0thuP522Y",
+      "name": "Earth Wallpaper",
+      "category": "Wallpaper",
+      "price": 1200,
+      "stock": 10,
+      "status": "active",
+      "image": "https://res.cloudinary.com/dtepekvcq/image/upload/v1779363768/dt3n86oc8umbvoh7s6so.jpg",
+      "createdAt": "2026-05-21"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": "2",
+      "userName": "Sara Khan",
+      "product": "Wireless Headphones",
+      "amount": 129.99,
+      "status": "pending",
+      "createdAt": "2024-05-01"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "userName": "Bilal Ahmed",
+      "product": "Office Chair",
+      "amount": 299.99,
+      "status": "delivered",
+      "createdAt": "2024-05-03"
+    },
+    {
+      "id": "3",
+      "userId": "4",
+      "userName": "Fatima Malik",
+      "product": "Standing Desk",
+      "amount": 499.99,
+      "status": "processing",
+      "createdAt": "2024-05-05"
+    },
+    {
+      "id": "4",
+      "userId": "2",
+      "userName": "Sara Khan",
+      "product": "Mechanical Keyboard",
+      "amount": 89.99,
+      "status": "cancelled",
+      "createdAt": "2024-05-07"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "message": "New user registered: Fatima Malik",
+      "read": false,
+      "createdAt": "2024-05-07"
+    },
+    {
+      "id": "2",
+      "message": "Order #3 has been placed",
+      "read": false,
+      "createdAt": "2024-05-06"
+    },
+    {
+      "id": "3",
+      "message": "Product stock low: Standing Desk",
+      "read": true,
+      "createdAt": "2024-05-05"
+    }
+  ],
+  "auth": [
+    {
+      "id": "1",
+      "email": "ali@smarthub.com",
+      "password": "admin123",
+      "role": "admin",
+      "name": "Ali Hassan"
+    },
+    {
+      "id": "2",
+      "email": "sara@smarthub.com",
+      "password": "manager123",
+      "role": "manager",
+      "name": "Sara Khan"
+    },
+    {
+      "id": "5XBdAI4q-0A",
+      "email": "smateeb208@gmail.com",
+      "password": "sheikh123",
+      "role": "user",
+      "name": "Sheikh Ateeb"
+    },
+    {
+      "id": "YcizohL6VGc",
+      "email": "engineer92@gmail.com",
+      "password": "ateeb123",
+      "role": "user",
+      "name": "Sheikh Mohammad Ateeb"
+    }
+  ],
+  "stats": [
+    {
+      "id": "1",
+      "title": "Total Users",
+      "value": 1240,
+      "change": "+12%",
+      "trend": "up"
+    },
+    {
+      "id": "2",
+      "title": "Total Products",
+      "value": 385,
+      "change": "+5%",
+      "trend": "up"
+    },
+    {
+      "id": "3",
+      "title": "Total Orders",
+      "value": 764,
+      "change": "-3%",
+      "trend": "down"
+    },
+    {
+      "id": "4",
+      "title": "Revenue",
+      "value": 48320,
+      "change": "+18%",
+      "trend": "up"
+    }
+  ],
+  "monthlySales": [
+    {
+      "id": "1",
+      "month": "Jan",
+      "sales": 4200,
+      "orders": 80
+    },
+    {
+      "id": "2",
+      "month": "Feb",
+      "sales": 5800,
+      "orders": 95
+    },
+    {
+      "id": "3",
+      "month": "Mar",
+      "sales": 7200,
+      "orders": 120
+    },
+    {
+      "id": "4",
+      "month": "Apr",
+      "sales": 6100,
+      "orders": 105
+    },
+    {
+      "id": "5",
+      "month": "May",
+      "sales": 8900,
+      "orders": 140
+    },
+    {
+      "id": "6",
+      "month": "Jun",
+      "sales": 7600,
+      "orders": 128
+    },
+    {
+      "id": "7",
+      "month": "Jul",
+      "sales": 9200,
+      "orders": 155
+    },
+    {
+      "id": "8",
+      "month": "Aug",
+      "sales": 8100,
+      "orders": 138
+    },
+    {
+      "id": "9",
+      "month": "Sep",
+      "sales": 10400,
+      "orders": 172
+    },
+    {
+      "id": "10",
+      "month": "Oct",
+      "sales": 9800,
+      "orders": 165
+    },
+    {
+      "id": "11",
+      "month": "Nov",
+      "sales": 11200,
+      "orders": 188
+    },
+    {
+      "id": "12",
+      "month": "Dec",
+      "sales": 12800,
+      "orders": 210
+    }
+  ],
+  "categoryStats": [
+    {
+      "id": "1",
+      "name": "Electronics",
+      "value": 400
+    },
+    {
+      "id": "2",
+      "name": "Furniture",
+      "value": 300
+    },
+    {
+      "id": "3",
+      "name": "Clothing",
+      "value": 200
+    },
+    {
+      "id": "4",
+      "name": "Books",
+      "value": 100
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
